@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="app_name">Together</string>
+	<string name="show_map_string">Activity</string>
+	<string name="message">Message</string>
+	<string name="eventname">Name</string>
+	<string name="eventdate">Date</string>
+	<string name="eventlocation">Location</string>
+	<string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="registered">Congrats! You have registered successfully!</string>
+    <string name="show">Show</string>
+    <string name="create">Create</string>
+    <string name="attend">Attend</string>
+    <string name="send">Send</string>
+    <string name="receive">Receive</string>
+    <string name="friend">Friend</string>
+    <string name="together_activity">Activity</string>
+    <string name="friend_name">Friend Name:</string>
+    <string name="add">Add</string>
+    
+	
+</resources>

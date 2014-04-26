@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/eventname" />
+    <EditText
+        android:id="@+id/eventname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/eventname" />
+	<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/eventdate" />
+    <EditText
+        android:id="@+id/eventdate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/eventdate" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/eventlocation" />
+    <EditText
+        android:id="@+id/eventlocation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/eventlocation" />
+    <Button
+        android:id="@+id/createButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF4444"
+        android:text="@string/create" />
+    <TextView 
+        android:id="@+id/longitude"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/latitude"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+    <TextView 
+        android:id="@+id/user_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/createError"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:paddingLeft="80dp"
+    android:paddingRight="80dp"  
+    android:gravity="center"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50dip"
+        android:textStyle="bold"
+        android:textColor="#99CC00"
+        android:layout_centerHorizontal="true"
+        android:lineSpacingExtra="3dp"
+        android:lineSpacingMultiplier="1.4"
+        android:text="@string/app_name" />
+    <TextView
+        android:id="@+id/registered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:textSize="20dip"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dip"
+        android:text="@string/registered" />
+    
+    <Button
+        android:id="@+id/loginButton" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registered"
+        android:background="#FFBB33"
+        android:layout_centerHorizontal="true"
+        android:text="@string/login"/>
+    
+
+</RelativeLayout>
